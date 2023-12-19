@@ -1,43 +1,43 @@
 .Data_card_container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 18px;
-    padding-bottom: 18px
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
   }
 
   
 .s_card {
     background-color: lightcyan;
-    margin: 15px;
-    width: 480px;
-    height: 180px;
+    margin: 16px;
+    width: 500px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 6px;
     justify-content: center;
   }
   
   .c_text {
     color:black;
-    font-size: 30px;
+    font-size: 32px;
   }
   
   .c_value {
     color: black;
-    font-size: 40px;
+    font-size: 38px;
   }
   
   .c_note {
-    font-size: 22px;
+    font-size: 20px;
     color: blue;
   }
   
   @media screen and (min-width: 1024px) {
     .sprints_card {
-      background-color: var(--third-color);
+      background-color: black;
       margin: 10px;
       width: 300px;
       height: 150px;
@@ -49,14 +49,14 @@
     }
     .card_text {
       color: rgb(72, 72, 158);
-      font-size: 21px;
+      font-size: 22px;
     }
   
     .card_value {
-      font-size: 30px;
+      font-size: 29px;
     }
   
     .card_note {
-      font-size: 14px;
+      font-size: 13px;
     }
   }
